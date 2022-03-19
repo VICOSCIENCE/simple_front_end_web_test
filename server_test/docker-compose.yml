@@ -1,7 +1,7 @@
 version: "3.3"
 
 services:
-  nextjs:
+  reactApp:
     ports:
       - 80:3000
     build:
