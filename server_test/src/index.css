@@ -11,3 +11,9 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
 }
+
+@font-face {
+  font-family: 'Oswald';
+  src: local('Oswald'), url(../public/fonts/oswald-v40-latin-500.woff) format('woff');
+
+}

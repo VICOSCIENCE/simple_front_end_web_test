@@ -1,11 +1,7 @@
-version: "3.3"
-
+version: '3'
 services:
-  react_app:
+  app:
+    build: .
+    restart: always
     ports:
-      - 80:3000
-    build:
-      context: .
-      dockerfile: Dockerfile
-    volumes:
-      - .:/usr/src/app
+      - "80:80"
