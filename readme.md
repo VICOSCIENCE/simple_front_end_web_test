@@ -1,4 +1,3 @@
-
 [![Contributors][contributors-shield]][contributors-url]
 
 [![Forks][forks-shield]][forks-url]
@@ -25,33 +24,27 @@
 
 ## Getting Started
 
-  
-
-This is an example of how you may give instructions on setting up your project locally.
-
-To get a local copy up and running follow these simple example steps.
-
-  
+This example is intended for quick test server if you are setting up an Nginx server instance for the first time and as template for the proper minimal way to document the project repository
 
 ### Prerequisites
 
-  
+### Routing
+- Check the AWS EC Instance is properly set 
+- Check the AWS Route 53 zone is properly on first time or after instance reboot or stop
+- Check the dns server names are properly set on the domain name service provider (NIC.com NIC.cl)
+- Check security group are properly set
+Inbound rules
+Ports
+443, 80, 22
 
-This is an example of how to list things you need to use the software and how to install them.
+### Development environment
 
 * npm
-
 ```sh
-
 npm install npm@latest -g
-
 ```
 
-  
-
 ### Installation
-
-  
 
 _Below is an example of how you can instruct your audience on installing and setting up your app. This template doesn't rely on any external dependencies or services._
 
@@ -173,29 +166,29 @@ Project Link: [https://github.com/VICOSCIENCE/simple_front_end_web_test](https:/
 
 ## Acknowledgments
 
-* This readme.MD file is partially based on [othneildrew's Best-README-Template](https://github.com/othneildrew/Best-README-Template)
+* This readme.MD file is partially based on [othneildrew's Best-README-Template](https://github.com/VICOSCIENCE/simple_front_end_web_test)
 
 <!-- MARKDOWN LINKS & IMAGES -->
 
-[contributors-shield]: https://img.shields.io/github/contributors/othneildrew/Best-README-Template.svg?style=for-the-badge
+[contributors-shield]: https://img.shields.io/github/contributors/VICOSCIENCE/simple_front_end_web_test.svg?style=for-the-badge
 
-[contributors-url]: https://github.com/othneildrew/Best-README-Template/graphs/contributors
+[contributors-url]: https://github.com/VICOSCIENCE/simple_front_end_web_test/graphs/contributors
 
-[forks-shield]: https://img.shields.io/github/forks/othneildrew/Best-README-Template.svg?style=for-the-badge
+[forks-shield]: https://img.shields.io/github/forks/VICOSCIENCE/simple_front_end_web_test.svg?style=for-the-badge
 
-[forks-url]: https://github.com/othneildrew/Best-README-Template/network/members
+[forks-url]: https://github.com/VICOSCIENCE/simple_front_end_web_test/network/members
 
-[stars-shield]: https://img.shields.io/github/stars/othneildrew/Best-README-Template.svg?style=for-the-badge
+[stars-shield]: https://img.shields.io/github/stars/VICOSCIENCE/simple_front_end_web_test.svg?style=for-the-badge
 
-[stars-url]: https://github.com/othneildrew/Best-README-Template/stargazers
+[stars-url]: https://github.com/VICOSCIENCE/simple_front_end_web_test/stargazers
 
-[issues-shield]: https://img.shields.io/github/issues/othneildrew/Best-README-Template.svg?style=for-the-badge
+[issues-shield]: https://img.shields.io/github/issues/VICOSCIENCE/simple_front_end_web_test.svg?style=for-the-badge
 
-[issues-url]: https://github.com/othneildrew/Best-README-Template/issues
+[issues-url]: https://github.com/VICOSCIENCE/simple_front_end_web_test/issues
 
-[license-shield]: https://img.shields.io/github/license/othneildrew/Best-README-Template.svg?style=for-the-badge
+[license-shield]: https://img.shields.io/github/license/VICOSCIENCE/simple_front_end_web_test.svg?style=for-the-badge
 
-[license-url]: https://github.com/othneildrew/Best-README-Template/blob/master/LICENSE.txt
+[license-url]: https://github.com/VICOSCIENCE/simple_front_end_web_test/blob/master/LICENSE.txt
 
 [linkedin-shield]: https://img.shields.io/badge/-LinkedIn-black.svg?style=for-the-badge&logo=linkedin&colorB=555
 
