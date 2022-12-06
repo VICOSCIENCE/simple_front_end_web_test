@@ -33,8 +33,10 @@ This example is intended for quick test server if you are setting up an Nginx se
 - Check the dns server names are properly set on the domain name service provider (NIC.com NIC.cl)
 - Check security group are properly set Inbound rules Ports: 443, 80, 22
 
+<!-- USAGE -->
 ## Usage
 
+### Deploy
 ```bash
 
 git clone https://github.com/VICOSCIENCE/simple_front_end_web_test
@@ -42,9 +44,15 @@ cd simple_front_end_web_test
 sudo docker-compose up
 
 ```
-+
-<!-- ROADMAP -->
+### Erase
+```bash
 
+docker rm simple_front_end_web_test_nginx_test_1
+sudo rm -r simple_front_end_web_test
+
+```
+
+<!-- ROADMAP -->
 ## Roadmap
 
   
