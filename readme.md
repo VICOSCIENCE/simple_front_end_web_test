@@ -33,7 +33,7 @@ This example is intended for quick test server if you are setting up an Nginx se
 - Check the dns server names are properly set on the domain name service provider (NIC.com NIC.cl)
 - Check security group are properly set Inbound rules Ports: 443, 80, 22
 
-### Usage
+## Usage
 
 ```bash
 
@@ -42,75 +42,7 @@ cd simple_front_end_web_test
 sudo docker-compose up
 
 ```
-
-
-### Development environment
-
-* npm
-```sh
-npm install npm@latest -g
-```
-
-### Installation
-
-_Below is an example of how you can instruct your audience on installing and setting up your app. This template doesn't rely on any external dependencies or services._
-
-  
-
-1. Get a free API Key at [https://example.com](https://example.com)
-
-2. Clone the repo
-
-```sh
-
-git clone https://github.com/your_username_/Project-Name.git
-
-```
-
-3. Install NPM packages
-
-```sh
-
-npm install
-
-```
-
-4. Enter your API in `config.js`
-
-```js
-
-const  API_KEY = 'ENTER YOUR API';
-
-```
-
-  
-
-<p  align="right">(<a  href="#top">back to top</a>)</p>
-
-  
-  
-  
-
-<!-- USAGE EXAMPLES -->
-
-## Usage
-
-  
-
-Use this space to show useful examples of how a project can be used. Additional screenshots, code examples and demos work well in this space. You may also link to more resources.
-
-  
-
-_For more examples, please refer to the [Documentation](https://example.com)_
-
-  
-
-<p  align="right">(<a  href="#top">back to top</a>)</p>
-
-  
-  
-  
-
++
 <!-- ROADMAP -->
 
 ## Roadmap
