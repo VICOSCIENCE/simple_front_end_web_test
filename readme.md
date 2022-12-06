@@ -16,10 +16,9 @@
 
 ### Built With
 * [Nginx](https://www.nginx.com/)
-* [Next.js](https://nextjs.org/)
-* [React.js](https://reactjs.org/)
- 
+* [Html](https://www.w3.org/html/)
 
+ 
 <!-- GETTING STARTED -->
 
 ## Getting Started
@@ -32,10 +31,18 @@ This example is intended for quick test server if you are setting up an Nginx se
 - Check the AWS EC Instance is properly set 
 - Check the AWS Route 53 zone is properly on first time or after instance reboot or stop
 - Check the dns server names are properly set on the domain name service provider (NIC.com NIC.cl)
-- Check security group are properly set
-Inbound rules
-Ports
-443, 80, 22
+- Check security group are properly set Inbound rules Ports: 443, 80, 22
+
+### Usage
+
+```bash
+
+git clone https://github.com/VICOSCIENCE/simple_front_end_web_test
+cd simple_front_end_web_test
+sudo docker-compose up
+
+```
+
 
 ### Development environment
 
