@@ -185,15 +185,23 @@ docker network ls
 ```bash
 docker inspect [contenedor]
 ```
+## Stop containers
 
+Stop all running containers
+
+```bash
+docker stop $(docker ps -a -q)
+```
+Stop a container
 ```bash
 docker stop my_container
 ```
-#How to Stop All Docker Containers
 
+- How to Stop All Docker Containers
 ```bash
 docker kill $(docker ps -q)
 ```
+
 - Enter to the bash of the container instance
 ```bash
 docker exec -it CONTAINER_NAME bin/sh
@@ -211,12 +219,13 @@ docker rmi <your-image-id> <your-image-id>
 docker rmi $(docker images -q)
 ```
 
-- All Docker Containers
+- Delete all Docker Containers
 
 ```bash
 docker rm $(docker ps -a -q)
-
 ```
+
+
 
   
 
