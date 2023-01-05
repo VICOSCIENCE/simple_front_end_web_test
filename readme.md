@@ -144,39 +144,76 @@ Project Link: [https://github.com/VICOSCIENCE/simple_front_end_web_test](https:/
  
 
 # Docker cheat sheets
-
-docker network prune
-
-docker volume prune
-
-docker container prune
-
-docker system prune
-
-docker system prune --volumes
-
-docker ps
-
-docker network ls
-
+- Force to build (--build)
+- Process behind (-d)
+```bash
 docker-compose up --build -d
-
-docker-compose down --remove-orphans
-
-docker inspect [contenedor]
-
-docker stop my_container
-
-#How to Stop All Docker Containers
-
-docker kill $(docker ps -q)
-
-## Remove or Delete containers
-
-### How to Remove All Docker Containers
+```
 
 ```bash
+docker-compose down --remove-orphans
+```
 
+```bash
+docker network prune
+```
+
+```bash
+docker volume prune
+```
+
+```bash
+docker container prune
+```
+
+```bash
+docker system prune
+```
+
+```bash
+docker system prune --volumes
+```
+
+```bash
+docker ps
+```
+
+```bash
+docker network ls
+```
+
+```bash
+docker inspect [contenedor]
+```
+
+```bash
+docker stop my_container
+```
+#How to Stop All Docker Containers
+
+```bash
+docker kill $(docker ps -q)
+```
+- Enter to the bash of the container instance
+```bash
+docker exec -it CONTAINER_NAME bin/sh
+```
+## Remove or Delete
+
+### How to Remove 
+
+- Remove multiple images
+```bash
+docker rmi <your-image-id> <your-image-id>
+```
+- Remove multiple images
+```bash
+docker rmi $(docker images -q)
+```
+
+- All Docker Containers
+
+```bash
 docker rm $(docker ps -a -q)
 
 ```
