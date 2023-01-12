@@ -143,7 +143,15 @@ Project Link: [https://github.com/VICOSCIENCE/simple_front_end_web_test](https:/
 
  
 
-# Docker cheat sheets
+# Cheat sheets
+## Docker
+
+### Stats
+
+```bash
+sudo docker stats
+```
+
 - Force to build (--build)
 - Process behind (-d)
 ```bash
@@ -185,7 +193,7 @@ docker network ls
 ```bash
 docker inspect [contenedor]
 ```
-## Stop containers
+### Stop containers
 
 Stop all running containers
 
@@ -206,9 +214,7 @@ docker kill $(docker ps -q)
 ```bash
 docker exec -it CONTAINER_NAME bin/sh
 ```
-## Remove or Delete
-
-### How to Remove 
+### Remove or Delete
 
 - Remove multiple images
 ```bash
@@ -224,11 +230,6 @@ docker rmi $(docker images -q)
 ```bash
 docker rm $(docker ps -a -q)
 ```
-
-
-
-  
-
 ### How To Remove All Docker Images
 
 ```bash
@@ -246,14 +247,14 @@ docker volume rm $(docker volume ls -qf dangling=true)
 ```
 ## Copy
 
-### One specific file can be copied TO the container like:
+- One specific file can be copied TO the container like:
 
 ```bash
 
 docker cp foo.txt container_id:/foo.txt
 
 ```
-### One specific file can be copied FROM the container like:
+- One specific file can be copied FROM the container like:
 
 ```bash
 
