@@ -4,3 +4,24 @@
     border: 0px solid;
     padding: 10px;
   }
+
+.message {
+    text-align:center;
+    font-family: Roboto, Helvetica, sans-serif;
+    color:#313130;
+    font-size:40px;
+}
+
+.title {
+    text-align:center;
+    font-family: Roboto, Helvetica, sans-serif;
+    color:#313130;
+    font-size:50px;
+}
+
+.text {
+    text-align:center;
+    font-family: Roboto, Helvetica, sans-serif;
+    color:#313130;
+    font-size:20px;
+}
